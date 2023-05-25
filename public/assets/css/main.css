@@ -1,0 +1,101 @@
+/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-class {
+    font-size: 17pt;
+
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../images/HeroBanner.jpg");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    -webkit-box-shadow: 0px -7px 26px 10px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px -7px 26px 10px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px -7px 26px 10px rgba(0, 0, 0, 0.47);
+}
+
+.hero-text {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 35%;
+    /* top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: white;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.title-hero {
+    font-size: 40pt !important;
+    letter-spacing: 50px;
+}
+
+.caption-hero {
+    padding: 0px 5px;
+}
+
+.navbar-custom {
+    background-color: white !important;
+}
+
+.menu-frame {
+    margin-top: 40%;
+    height: 100px;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {
+    .hero-image {
+        height: 50vh;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .hero-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .text-black {
+        color: black !important;
+    }
+
+    .title-hero {
+        font-size: 14pt !important;
+        letter-spacing: 14px;
+    }
+
+    .caption-hero {
+        padding: 0px 20px;
+    }
+}
